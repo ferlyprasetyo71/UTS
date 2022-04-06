@@ -1,0 +1,97 @@
+body{
+    background: orangered;
+}
+
+.logo{
+    float: left;
+    margin-left: 46px;
+    padding: 0px 38px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+}
+
+.menu ul{
+    list-style: none;
+    cursor: pointer;
+    float: right;
+    margin: 20px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 15px;
+    font-weight: 400;
+}
+
+.deskripsi{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+
+.deskripsi h1{
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 50px;
+}
+
+.deskripsi span{
+    color: black;
+} 
+
+.content{
+    color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 70%;
+    left: 73%;
+}
+
+.gambar{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    width : 57%;
+    text-align: -webkit-right;
+    }
+
+.gambar img{
+        width: 70%;
+    }
+
+.footer{
+        text-align: center;
+        clear : both;
+        padding : 10px;
+        margin : 10px;
+        font-size: 20px;
+        color: wheat;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+}
